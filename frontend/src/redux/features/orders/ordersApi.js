@@ -5,7 +5,7 @@ import getBaseUrl from "../../../utils/baseURL";
 const ordersApi = createApi({
     reducerPath: 'ordersApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: `${getBaseUrl()}/api/orders`,
+        baseUrl: `book-store-2-server.vercel.app/api/orders`,
         credentials: 'include'
     }),
     tagTypes: ['Orders'],
